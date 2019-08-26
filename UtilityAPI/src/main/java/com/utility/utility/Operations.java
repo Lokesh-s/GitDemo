@@ -11,6 +11,7 @@ import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
 
 @Component
+//Utility Class
 public class Operations {
 	public HttpHeaders getHeaders() {
 		HttpHeaders headers=new HttpHeaders();
